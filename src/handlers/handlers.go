@@ -10,8 +10,8 @@ import (
 
 	"github.com/gorilla/mux"
 	"github.com/google/uuid"
-	"myapp/internal/db"
-	"myapp/internal/models"
+	"github.com/papawfen/postgers-golang/src/db"
+	"github.com/papawfen/postgers-golang/src/models"
 )
 
 var mu sync.Mutex

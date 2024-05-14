@@ -2,7 +2,6 @@ package tests
 
 import (
 	"bytes"
-	"context"
 	"encoding/json"
 	"net/http"
 	"net/http/httptest"
@@ -10,8 +9,8 @@ import (
 	"time"
 
 	"github.com/gorilla/mux"
-	"myapp/internal/handlers"
-	"myapp/internal/models"
+	"github.com/papawfen/postgers-golang/src/handlers"
+	"github.com/papawfen/postgers-golang/src/models"
 	"github.com/stretchr/testify/assert"
 )
 
